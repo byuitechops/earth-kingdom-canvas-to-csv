@@ -14,6 +14,7 @@ namespace first_C__project
             string result = await HTTPHelper.MakeHTTPRequest(queryString, api_token);
             dynamic json = JsonConvert.DeserializeObject(result);
             System.Console.WriteLine(json);
+            Processor.CsvFileProcessor(json);
             //System.IO.File.WriteAllText("res.json", json);
         }
     }
