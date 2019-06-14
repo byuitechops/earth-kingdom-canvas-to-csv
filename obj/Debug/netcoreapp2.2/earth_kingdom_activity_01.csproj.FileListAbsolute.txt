@@ -9,3 +9,9 @@ C:\Users\khartzog\Documents\My Training\earth-kingdom-canvas-to-csv\obj\Debug\ne
 C:\Users\khartzog\Documents\My Training\earth-kingdom-canvas-to-csv\obj\Debug\netcoreapp2.2\earth_kingdom_activity_01.AssemblyInfo.cs
 C:\Users\khartzog\Documents\My Training\earth-kingdom-canvas-to-csv\obj\Debug\netcoreapp2.2\earth_kingdom_activity_01.dll
 C:\Users\khartzog\Documents\My Training\earth-kingdom-canvas-to-csv\obj\Debug\netcoreapp2.2\earth_kingdom_activity_01.pdb
+C:\Users\sbolande\Documents\projects\earth-kingdom-canvas-to-csv\obj\Debug\netcoreapp2.2\earth_kingdom_activity_01.csprojAssemblyReference.cache
+C:\Users\sbolande\Documents\projects\earth-kingdom-canvas-to-csv\obj\Debug\netcoreapp2.2\earth_kingdom_activity_01.csproj.CoreCompileInputs.cache
+C:\Users\sbolande\Documents\projects\earth-kingdom-canvas-to-csv\obj\Debug\netcoreapp2.2\earth_kingdom_activity_01.AssemblyInfoInputs.cache
+C:\Users\sbolande\Documents\projects\earth-kingdom-canvas-to-csv\obj\Debug\netcoreapp2.2\earth_kingdom_activity_01.AssemblyInfo.cs
+C:\Users\sbolande\Documents\projects\earth-kingdom-canvas-to-csv\obj\Debug\netcoreapp2.2\earth_kingdom_activity_01.dll
+C:\Users\sbolande\Documents\projects\earth-kingdom-canvas-to-csv\obj\Debug\netcoreapp2.2\earth_kingdom_activity_01.pdb
