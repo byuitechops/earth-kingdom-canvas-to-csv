@@ -1,0 +1,66 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\khartzog\\Documents\\My Training\\earth-kingdom-canvas-to-csv\\earth_kingdom_activity_01.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\khartzog\\Documents\\My Training\\earth-kingdom-canvas-to-csv\\earth_kingdom_activity_01.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\khartzog\\Documents\\My Training\\earth-kingdom-canvas-to-csv\\earth_kingdom_activity_01.csproj",
+        "projectName": "earth_kingdom_activity_01",
+        "projectPath": "C:\\Users\\khartzog\\Documents\\My Training\\earth-kingdom-canvas-to-csv\\earth_kingdom_activity_01.csproj",
+        "packagesPath": "C:\\Users\\khartzog\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\khartzog\\Documents\\My Training\\earth-kingdom-canvas-to-csv\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\khartzog\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.2"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.2": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.2": {
+          "dependencies": {
+            "CsvHelper": {
+              "target": "Package",
+              "version": "[12.1.2, )"
+            },
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[12.0.2, )"
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    }
+  }
+}
