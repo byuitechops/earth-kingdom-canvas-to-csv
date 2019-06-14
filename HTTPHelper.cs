@@ -21,7 +21,7 @@ namespace first_C__project
                     // string responseBody = await response.Content.ReadAsStringAsync();
                     // Above three lines can be replaced with new helper method below
                     string responseBody = await client.GetStringAsync(url);
-                    //Console.WriteLine("responseBody: " + responseBody);
+                    
                     return responseBody;
                 }
                 catch (HttpRequestException e)
