@@ -7,14 +7,15 @@ namespace first_C__project
     public class HTTPHelper
     {
         private static readonly HttpClient client = new HttpClient();
-        public static async Task<string> MakeHTTPRequest(string url, string token)
+        public static async Task<string> MakeHTTPRequest(string queryString, string api_token)
         {
             using (client)
             {
-                client.DefaultRequestHeaders.Authorization = new System.Net.Http.Headers.AuthenticationHeaderValue("Bearer", token);
+                client.DefaultRequestHeaders.Authorization = new System.Net.Http.Headers.AuthenticationHeaderValue("Bearer", api_token);
                 // Call asynchronous network methods in a try/catch block to handle exceptions
                 try
                 {
+                    string url = "https://byui.instructure.com/" + queryString;
                     // HttpResponseMessage response = await client.GetAsync(url);
                     // response.EnsureSuccessStatusCode();
                     // string responseBody = await response.Content.ReadAsStringAsync();
