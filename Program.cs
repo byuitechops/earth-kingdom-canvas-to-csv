@@ -15,7 +15,7 @@ namespace first_C__project
             string queryString = args.Length != 0 ? args[0] : "/api/v1/courses/80/users";
             string result = await HTTPHelper.MakeHTTPRequest(queryString, api_token);
             dynamic data = JsonConvert.DeserializeObject(result);
-            List<dynamic> json = new List<dynamic>();
+            JArray json = new JArray();
             if (data is JArray)
             {
                 foreach (var prop in data)

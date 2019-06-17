@@ -10,7 +10,7 @@ namespace first_C__project
 {
     public class Processor
     {
-        public static string CsvFileProcessor(dynamic json)
+        public static string CsvFileProcessor(JArray json)
         {
             // using (TextWriter writer = new StreamWriter(@"c:\test.csv", false, System.Text.Encoding.UTF8))
             // {
@@ -34,6 +34,7 @@ namespace first_C__project
 
                 foreach (var obj in json)
                 {
+                    csv.WriteHeader(obj);
                     foreach (JProperty prop in obj)
                     {
                         csv.WriteField(prop.Value.ToString());
@@ -42,7 +43,6 @@ namespace first_C__project
                 }
 
                 writer.Flush();
-                writer.Close();
 
             }
 
