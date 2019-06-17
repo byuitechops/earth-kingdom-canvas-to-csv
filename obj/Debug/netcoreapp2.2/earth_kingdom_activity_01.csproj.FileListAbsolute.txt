@@ -15,3 +15,8 @@ C:\Users\sbolande\Documents\projects\earth-kingdom-canvas-to-csv\obj\Debug\netco
 C:\Users\sbolande\Documents\projects\earth-kingdom-canvas-to-csv\obj\Debug\netcoreapp2.2\earth_kingdom_activity_01.AssemblyInfo.cs
 C:\Users\sbolande\Documents\projects\earth-kingdom-canvas-to-csv\obj\Debug\netcoreapp2.2\earth_kingdom_activity_01.dll
 C:\Users\sbolande\Documents\projects\earth-kingdom-canvas-to-csv\obj\Debug\netcoreapp2.2\earth_kingdom_activity_01.pdb
+C:\Users\sbolande\Documents\projects\earth-kingdom-canvas-to-csv\bin\Debug\netcoreapp2.2\earth_kingdom_activity_01.deps.json
+C:\Users\sbolande\Documents\projects\earth-kingdom-canvas-to-csv\bin\Debug\netcoreapp2.2\earth_kingdom_activity_01.runtimeconfig.json
+C:\Users\sbolande\Documents\projects\earth-kingdom-canvas-to-csv\bin\Debug\netcoreapp2.2\earth_kingdom_activity_01.runtimeconfig.dev.json
+C:\Users\sbolande\Documents\projects\earth-kingdom-canvas-to-csv\bin\Debug\netcoreapp2.2\earth_kingdom_activity_01.dll
+C:\Users\sbolande\Documents\projects\earth-kingdom-canvas-to-csv\bin\Debug\netcoreapp2.2\earth_kingdom_activity_01.pdb

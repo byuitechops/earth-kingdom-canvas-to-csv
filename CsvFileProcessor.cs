@@ -9,7 +9,7 @@ namespace first_C__project
 {
     public class Processor
     {
-         public static string CsvFileProcessor(dynamic json)
+        public static string CsvFileProcessor(dynamic json)
         {
             // using (TextWriter writer = new StreamWriter(@"c:\test.csv", false, System.Text.Encoding.UTF8))
             // {
@@ -27,14 +27,18 @@ namespace first_C__project
             // }
             // writer.Close();
 
-            using (var writer = new StreamWriter(Directory.GetCurrentDirectory() + @"\activity01.csv"));
-            using (var csv = new CsvWriter(writer))
+            using (TextWriter writer = new StreamWriter(Directory.GetCurrentDirectory() + @"\activity01.csv", true, System.Text.Encoding.UTF8))
             {
+                var csv = new CsvWriter(writer);
+                foreach (var prop in json)
+                {
+                    Console.WriteLine(prop);
+                }
 
             }
 
             return "0";
-           
+
 
         }
     }
