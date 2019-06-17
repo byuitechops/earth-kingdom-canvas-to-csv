@@ -4,6 +4,7 @@ using System.Threading.Tasks;
 using CsvHelper;
 using System.Collections.Generic;
 using System.IO;
+using Newtonsoft.Json.Linq;
 
 namespace first_C__project
 {
@@ -30,10 +31,18 @@ namespace first_C__project
             using (TextWriter writer = new StreamWriter(Directory.GetCurrentDirectory() + @"\activity01.csv", true, System.Text.Encoding.UTF8))
             {
                 var csv = new CsvWriter(writer);
-                foreach (var prop in json)
+
+                foreach (var obj in json)
                 {
-                    Console.WriteLine(prop);
+                    foreach (JProperty prop in obj)
+                    {
+                        csv.WriteField(prop.Value.ToString());
+                    }
+                    csv.NextRecord();
                 }
+
+                writer.Flush();
+                writer.Close();
 
             }
 

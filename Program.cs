@@ -2,6 +2,7 @@
 using System.Net.Http;
 using System.Threading.Tasks;
 using Newtonsoft.Json;
+using Newtonsoft.Json.Linq;
 using System.Collections.Generic;
 
 namespace first_C__project
@@ -15,7 +16,7 @@ namespace first_C__project
             string result = await HTTPHelper.MakeHTTPRequest(queryString, api_token);
             dynamic data = JsonConvert.DeserializeObject(result);
             List<dynamic> json = new List<dynamic>();
-            if (data is Array)
+            if (data is JArray)
             {
                 foreach (var prop in data)
                 {
@@ -26,8 +27,8 @@ namespace first_C__project
             {
                 json.Add(data);
             }
-            json.ForEach(i => Console.Write(i));
-            // Processor.CsvFileProcessor(json);
+            // json.ForEach(i => Console.WriteLine(i));
+            Processor.CsvFileProcessor(json);
             //System.IO.File.WriteAllText("res.json", json);
         }
     }
