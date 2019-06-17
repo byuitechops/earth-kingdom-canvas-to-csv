@@ -3,7 +3,7 @@ using System.Net.Http;
 using System.Threading.Tasks;
 using CsvHelper;
 using System.Collections.Generic;
-using System.IO.TextWriter;
+using System.IO;
 
 namespace first_C__project
 {
