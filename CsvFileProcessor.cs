@@ -31,10 +31,14 @@ namespace first_C__project
             using (TextWriter writer = new StreamWriter(Directory.GetCurrentDirectory() + @"\activity01.csv", true, System.Text.Encoding.UTF8))
             {
                 var csv = new CsvWriter(writer);
+                var firstObject = json[0];
+
+                foreach (JProperty property in firstObject)
+                    csv.WriteField(property.Name);
+                csv.NextRecord();
 
                 foreach (var obj in json)
                 {
-                    csv.WriteHeader(obj);
                     foreach (JProperty prop in obj)
                     {
                         csv.WriteField(prop.Value.ToString());
@@ -43,12 +47,8 @@ namespace first_C__project
                 }
 
                 writer.Flush();
-
             }
-
             return "0";
-
-
         }
     }
 }
