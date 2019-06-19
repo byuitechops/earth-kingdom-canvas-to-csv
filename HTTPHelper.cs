@@ -15,13 +15,17 @@ namespace first_C__project
                 // Call asynchronous network methods in a try/catch block to handle exceptions
                 try
                 {
-                    string url = "https://byui.instructure.com/" + queryString;
+                    if (queryString[0] != '/')
+                    {
+                        queryString = "/" + queryString;
+                    }
+                    string url = "https://byui.instructure.com" + queryString;
                     // HttpResponseMessage response = await client.GetAsync(url);
                     // response.EnsureSuccessStatusCode();
                     // string responseBody = await response.Content.ReadAsStringAsync();
                     // Above three lines can be replaced with new helper method below
                     string responseBody = await client.GetStringAsync(url);
-                  
+
                     return responseBody;
                 }
                 catch (HttpRequestException e)
