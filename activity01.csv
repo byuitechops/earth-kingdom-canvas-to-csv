@@ -1,10 +1,10 @@
-﻿id,name,created_at,sortable_name,short_name,sis_user_id,integration_id,root_account
-137383,CCT - Seth Bolander,2/11/2019 10:27:29 AM,"Bolander, CCT - Seth",CCT - Seth Bolander,,,byui.instructure.com
-34674,CCT - Daniel Green,1/31/2018 12:16:31 PM,"Green, CCT - Daniel",CCT - Daniel Green,,,byui.instructure.com
-46,Joshua McKinney,4/29/2017 3:40:42 PM,"McKinney, Joshua",Joshua McKinney,401680364,,byui.instructure.com
-48079,CCT - Levi Stum,7/19/2018 3:55:38 PM,"Stum, CCT - Levi",CCT - Levi Stum,,,byui.instructure.com
-34728,Alice Tryle,2/8/2018 5:20:00 PM,"Tryle, Alice",Alice Tryle,AliceTryle101,,byui.instructure.com
-34729,Bob Tryle,2/8/2018 5:20:30 PM,"Tryle, Bob",Bob Tryle,BobTryle101,,byui.instructure.com
-34730,Charli Tryle,2/8/2018 5:20:49 PM,"Tryle, Charli",Charli Tryle,CharliTryle101,,byui.instructure.com
-34731,David Tryle,2/8/2018 5:21:09 PM,"Tryle, David",David Tryle,DavidTryle101,,byui.instructure.com
-34766,Eugene Tryle,2/15/2018 3:58:41 PM,"Tryle, Eugene",Eugene Tryle,EugeneTryle101,,byui.instructure.com
+﻿id,name,created_at,sortable_name,short_name,sis_user_id,integration_id,root_account,email
+137383,CCT - Seth Bolander,2/11/2019 10:27:29 AM,"Bolander, CCT - Seth",CCT - Seth Bolander,,,byui.instructure.com,sbolande@byui.edu
+34674,CCT - Daniel Green,1/31/2018 12:16:31 PM,"Green, CCT - Daniel",CCT - Daniel Green,,,byui.instructure.com,danverde@byui.edu
+46,Joshua McKinney,4/29/2017 3:40:42 PM,"McKinney, Joshua",Joshua McKinney,401680364,,byui.instructure.com,mckinneyj@byui.edu
+48079,CCT - Levi Stum,7/19/2018 3:55:38 PM,"Stum, CCT - Levi",CCT - Levi Stum,,,byui.instructure.com,levistum@byui.edu
+34728,Alice Tryle,2/8/2018 5:20:00 PM,"Tryle, Alice",Alice Tryle,AliceTryle101,,byui.instructure.com,atryle@wilsoncode.com
+34729,Bob Tryle,2/8/2018 5:20:30 PM,"Tryle, Bob",Bob Tryle,BobTryle101,,byui.instructure.com,btryle@wilsoncode.com
+34730,Charli Tryle,2/8/2018 5:20:49 PM,"Tryle, Charli",Charli Tryle,CharliTryle101,,byui.instructure.com,ctryle@wilsoncode.com
+34731,David Tryle,2/8/2018 5:21:09 PM,"Tryle, David",David Tryle,DavidTryle101,,byui.instructure.com,dtryle@wilsoncode.com
+34766,Eugene Tryle,2/15/2018 3:58:41 PM,"Tryle, Eugene",Eugene Tryle,EugeneTryle101,,byui.instructure.com,etryle@wilsoncode.com
